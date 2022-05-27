@@ -1,0 +1,142 @@
+*
+{margin: 0;
+padding: 0;}
+
+.header{
+    height: 75px;
+    background: #222222;
+}
+.header_top{
+    display: flex;
+padding-top: 15px;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+    padding-left: 231px;
+}
+.search{
+    padding-left: 41px;
+}
+.menu{
+    padding-right: 33px;
+}
+.profile{
+    padding-right: 33px;
+}
+.basket{
+    padding-right: 240px;
+}
+.main{
+    height: 764px;
+    background: #F1E4E6;
+}
+.main_box{
+    display: flex;
+    align-items: center;
+
+}
+.line{
+padding-left: 63px;
+}
+.heading{
+    padding-left: 16px;
+}
+.the_brand{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57px;
+    color: #222222;
+}
+.brand_of{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
+}
+.fashion {font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color:#f76b84;
+}
+.content{
+    padding-top: 65px;
+}
+.container {
+    width: 1140px;
+}
+.top_content{
+display: flex;
+justify-content: space-between;
+padding-left: 230px;
+}
+.content_women{
+    display: flex;
+    background: url(img1/forWomen.svg) no-repeat;
+align-items: center;
+justify-content: center;
+width: 360px;
+height: 260px;}
+
+.content_men{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 260px;
+    background: url(img1/forMen.svg) no-repeat;
+}
+.content_kids{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 260px;
+background: url(img1/forKids.svg) no-repeat;
+}
+.text_white{
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #F1E4E6;
+text-align: center;
+font-family: "Lato";
+}
+.text_pink {
+    font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+color: #f76b84;
+text-align: center;
+font-family: "Lato";
+}
+.lux {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1140px;
+    height: 180px;
+background: url(img1/Group\ 39.svg) no-repeat;
+}
+.content_lux{
+    display: flex;
+    justify-content: center;
+    padding-left: 230px;
+    padding-top: 30px;
+}
+
+.item{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+text-align: center;
+padding-top: 96px;
+color: #222222;
+}
+.item_shop{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #9F9F9F;
+}
