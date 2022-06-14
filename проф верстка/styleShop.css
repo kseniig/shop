@@ -4,32 +4,21 @@ padding: 0;}
 
 .header{
     height: 75px;
+    width: 1600px;
     background: #222222;
 }
-.header_top{
+.menu{
     display: flex;
 padding-top: 15px;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
+
 }
-.logo{
-    padding-left: 231px;
-}
-.search{
-    padding-left: 41px;
-}
-.menu{
-    padding-right: 33px;
-}
-.profile{
-    padding-right: 33px;
-}
-.basket{
-    padding-right: 240px;
-}
+
 .main{
     height: 764px;
     background: #F1E4E6;
+    width: 1600px;
 }
 .main_box{
     display: flex;
@@ -61,14 +50,14 @@ padding-left: 63px;
 }
 .content{
     padding-top: 65px;
-}
-.container {
-    width: 1140px;
-}
+    width: 1600px;
+   }
+
 .top_content{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 padding-left: 230px;
+width: 1140px;
 }
 .content_women{
     display: flex;
@@ -121,8 +110,9 @@ background: url(img1/Group\ 39.svg) no-repeat;
 .content_lux{
     display: flex;
     justify-content: center;
-    padding-left: 230px;
     padding-top: 30px;
+    width: 1140px;
+    padding-left:230px
 }
 
 .item{
@@ -139,4 +129,191 @@ font-size: 14px;
 line-height: 17px;
 text-align: center;
 color: #9F9F9F;
+}
+
+.mega_box {
+border-radius: 0px;
+background-color: #FFFFFF;
+position: absolute;
+padding-left: 33px;
+padding-top: 37px;
+display: none;
+}
+ .mega_menu {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color:  #000000;
+    padding-bottom: 24px;
+ }
+.mega_link{
+display: block;
+font-family: "Lato";
+font-size: 14px;
+line-height: 16,8px;
+font-weight: 400;
+text-decoration: none;
+color:#6F6E6E;
+padding-bottom: 11px;
+}
+.mega_heading {
+ font-family: "Lato";
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+color:#F16D7F;
+padding-bottom:12px;
+width:232px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.mega_link:hover{
+    color: #F16D7F;
+}
+.menu-list{
+    position: relative;
+    list-style: none;
+    padding-right: 40px;
+}
+.menu-list:hover .mega_box{
+    display: flex;
+}
+
+.footer{
+    width: 1600px;
+}
+.footer_content {
+ height: 341px;
+background-color: #222224;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.footer_top{
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.image{
+    padding-left: 120px;
+    padding-bottom: 27px;
+}
+.footer_heading{
+ font-family: "Lato";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color:#FBFBFB;
+padding-bottom: 16px ;
+}
+.footer_text{
+    font-family: "Lato";
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+
+}
+.autor{
+width:1600px;
+ height:448px ;
+ background: url(img1/photo\ subscribe.svg);
+}
+.autor_box{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top:  87px; 
+}
+.autor_top{
+    align-items: center;
+}
+.autor_photo{
+    padding-left: 100px;
+}
+.autor_text{
+ font-family: "Lato";
+font-weight:400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #222224;
+}
+.italic {
+    font-style: italic;
+}
+
+.text_button{
+font-family: "Lato";
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: center;
+}
+.text_butt{
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 40px;
+text-align: center;
+}
+.email{
+    display: flex;
+    
+}
+.textarea{
+    height: 47px;
+width: 256px;
+border-radius: 0px;
+background: #E1E1E1;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+margin-top: 32px;
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+text-align: center;
+
+
+}
+.button{
+    background: #E05C6E;
+    height: 49px;
+width: 100px;
+border: none;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+margin-top: 32px;
+}
+
+.rights{
+    width:1600px;
+height: 79px;
+background-color: #222224;
+display: flex;
+}
+
+.text_rights{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+color: #FBFBFB;
+padding-top: 30px;
+padding-left: 235px;
+}
+.top-contact{
+    list-style: none;
+    display: flex;
+    align-items: center;
+padding-left: 655px
+;
 }
