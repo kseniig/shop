@@ -89,7 +89,7 @@ font-size: 16px;
 line-height: 19px;
 color: #F1E4E6;
 text-align: center;
-font-family: "Lato";
+font-family: "Lato" sans-serif;
 }
 .text_pink {
     font-weight: 700;
@@ -97,7 +97,7 @@ font-size: 24px;
 line-height: 28px;
 color: #f76b84;
 text-align: center;
-font-family: "Lato";
+font-family: "Lato" sans-serif;
 }
 .lux {
     display: flex;
@@ -140,7 +140,7 @@ padding-top: 37px;
 display: none;
 }
  .mega_menu {
-    font-family: "Lato";
+    font-family: "Lato" sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
@@ -149,7 +149,7 @@ display: none;
  }
 .mega_link{
 display: block;
-font-family: "Lato";
+font-family: "Lato" sans-serif;
 font-size: 14px;
 line-height: 16,8px;
 font-weight: 400;
@@ -158,7 +158,7 @@ color:#6F6E6E;
 padding-bottom: 11px;
 }
 .mega_heading {
- font-family: "Lato";
+ font-family: "Lato" sans-serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 17px;
@@ -185,9 +185,129 @@ width:232px;
 .menu-list:hover .mega_box{
     display: flex;
 }
-
-.footer{
+.item-flex{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 1140px;
+margin-bottom: 18px;
+}
+.item-sec{
+    padding-top: 96px;
+    padding-left: 230px;
+}
+.item-heading{
+    font-family: "Lato" sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+text-align: center;
+color: #222222;
+}
+.item-desc-1{
+    font-family: "Lato" sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+color: #9F9F9F;
+text-align: center;
+padding-bottom: 48px;
+}
+.item-box{
+    width: 360px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.item-box:hover .item-pic{
+    filter: brightness(30%);
+}
+.item-link{
+    display: block;
+    width: 360px;
+    text-decoration: none;
+}
+.item-link:hover{
+    box-shadow: 0px 5px 6px 6px rgba(58, 56, 56, 0.86);
+}
+.item-pic{
+    width: 100%;
+}
+.txt-box{
+    padding:25px;
+position: relative;
+}
+.item-desc{
+ font-family: "Lato" sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: #000000;
+padding-bottom: 12px;
+}
+.item-price{
+ font-family: "Lato" sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+text-align: left;
+color:  #5D5D5D;
+padding-bottom: 18px;
+}
+.price{
+ font-family: "Lato" sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+color: #F16D7F;
+}
+.add-box{
+    display: none;
+    position: absolute;
+    top: 202px;
+justify-content: center;
+width: 100%;
+}
+.add{
+    text-decoration: none;
+    display: flex;
+    border:1px solid #FFFFFF;
+padding: 10px;
+justify-content: center;
+align-items: center;
+pointer-events: auto    ;
+}
+.cart{
+    margin-right: 11px;
+}
+.add-desc{
+    font-family: "Lato" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFFFF;
+    
+}
+.item-box:hover .add-box{
+    display: flex;
+}
+.add:hover {
+    box-shadow: 0px 5px 6px 6px rgba(58, 56, 56, 0.86);
+}
+.item-but{
+    display: flex;
+    justify-content: center;
     width: 1600px;
+    margin-bottom: 95px;
+}
+.item-button{
+    Width:211px;
+Height:47px;
+color: white;
+background-color: #F16D7F;
+border: 1px #FF6A6A;
+
 }
 .footer_content {
  height: 341px;
@@ -195,6 +315,7 @@ background-color: #222224;
  display: flex;
  align-items: center;
  justify-content: center;
+ width: 1600px;
 }
 .footer_top{
     justify-content: space-between;
@@ -205,7 +326,7 @@ background-color: #222224;
     padding-bottom: 27px;
 }
 .footer_heading{
- font-family: "Lato";
+ font-family: "Lato" sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: 24px;
@@ -214,7 +335,7 @@ color:#FBFBFB;
 padding-bottom: 16px ;
 }
 .footer_text{
-    font-family: "Lato";
+    font-family: "Lato" sans-serif;
 font-size: 14px;
 font-weight: 300;
 line-height: 17px;
@@ -239,7 +360,7 @@ width:1600px;
     padding-left: 100px;
 }
 .autor_text{
- font-family: "Lato";
+ font-family: "Lato" sans-serif;
 font-weight:400;
 font-size: 20px;
 line-height: 24px;
@@ -251,14 +372,14 @@ color: #222224;
 }
 
 .text_button{
-font-family: "Lato";
+font-family: "Lato" sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 28px;
 text-align: center;
 }
 .text_butt{
-font-family: Lato;
+font-family: "Lato" sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 40px;
@@ -302,7 +423,7 @@ display: flex;
 }
 
 .text_rights{
-    font-family: Lato;
+    font-family: "Lato" sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 19px;
@@ -314,6 +435,141 @@ padding-left: 235px;
     list-style: none;
     display: flex;
     align-items: center;
-padding-left: 655px
-;
+padding-left: 655px;
+}
+.contact-fa{
+    display: flex;
+    
+
+}
+.fa{
+    background-color: white;
+    font-size: 32px;
+    padding-left: 7px;
+   color: black;
+}
+.contact-fa:hover {
+    background-color:  #F16D7F;
+    color: white;
+}
+
+.product-content{
+    width: 1600px;
+    height: 148px;
+    background-color: #F8F3F4;
+}
+.product-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    padding-left: 230px;
+  padding-top: 60px;
+}
+.product-new{
+    font-family: "Lato" sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+color: #F16D7F;
+}
+.product-line{
+font-family: "Lato" sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+}
+.product-add{
+    width: 1600px;
+    height: 777px;
+    background-color: #F7F7F7;
+}
+.product-img{
+ height: 724px;
+width: 597px;
+display: block;
+margin: auto;
+}
+.product-price{
+    width: 1600px;
+
+}
+.price-add{
+    width: 1140px;
+    height: 600px;
+    display: block;
+text-align: center;
+padding-top: 65px;
+padding-left: 230px;
+border-left: 230px;
+}
+.pink-text{
+    font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+color: #F16D7F;
+padding-bottom: 12px;
+}
+.black-text{
+    font-family: "Lato" sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 22px;
+color: #4D4D4D;
+padding-top: 12px;
+padding-bottom: 49px;
+}
+.text-add{
+    font-family: "Lato" sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 17px;
+color: #5E5E5E;
+}
+.price-text{
+    font-family:"Lato" sans-serif;
+font-size: 24px;
+font-weight: 300;
+line-height: 29px;
+color: #EF5B70;
+padding-top: 32px;
+padding-bottom: 65px;
+}
+.hr{
+    border: 1px solid #EAEAEA
+}
+.menu-add{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+padding-top: 65px;
+padding-bottom: 49px;
+}
+.vector{
+    padding-right: 23px;
+}
+
+.button-add{
+    width: 211px;
+    height: 47px;
+    border: 1px solid #FF6A6A;
+    background-color: white;
+    color: #FF6A6A;
+}
+.item-sec-add{
+    padding: top 129px;
+    padding-left: 230px;
+    padding-bottom: 128px;
+}
+.item-box-add{
+        width: 360px;
+        position: relative;
+        padding-bottom: 30px;
+}
+.txt-box-add{
+    position: relative;
+    padding:25px;
+    background-color: 
+    #F8F8F8;
+    margin-top: -5px;
 }
